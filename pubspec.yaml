@@ -1,0 +1,44 @@
+name: flutter_sqlite_form
+description: A Flutter application that uses SQLite to store form data.
+
+# Define la versión de la aplicación
+version: 1.0.0+1
+
+# Entorno de SDK compatible con el proyecto
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Dependencia de HTTP para consumir la API randomuser.me
+  http: ^1.1.0
+  # Dependencia de SQLite para almacenamiento de datos local
+  sqflite: ^2.2.7
+  # Path para trabajar con rutas de archivos (necesario para SQLite)
+  path: ^1.8.3
+  # Fuente de iconos predeterminados para iOS y Android
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  # Dependencia para pruebas de Flutter
+  flutter_test:
+    sdk: flutter
+  # Linter de buenas prácticas para Flutter
+  flutter_lints: ^2.0.0
+
+# Configuraciones adicionales de Flutter
+flutter:
+  uses-material-design: true
+
+  # Aquí puedes agregar recursos adicionales, como imágenes o fuentes personalizadas.
+  # Ejemplo de cómo se agregan activos en Flutter (puedes descomentar estas líneas si usas imágenes):
+  # assets:
+  #   - images/
+  #   - assets/logo.png
+
+  # Puedes agregar fuentes personalizadas si es necesario:
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
