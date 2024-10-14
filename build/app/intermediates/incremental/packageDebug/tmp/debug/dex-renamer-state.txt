@@ -1,0 +1,4 @@
+#Wed Oct 09 23:09:52 CLST 2024
+base.0=C\:\\Users\\Andre\\Workspace\\flutter_sqlite_form\\flutter_sqlite_form\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
